@@ -11,9 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.sparkforce.nl"
   s.summary     = %q{Growl notifications for your Rails application.}
   s.description = %q{This Ruby on Rails gem allows you to easily add Growl-like notifications to your application using a jQuery plugin called 'gritter'.}
-  
-  s.rubyforge_project = "nowarning"
-  
+
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
